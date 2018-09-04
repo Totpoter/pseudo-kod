@@ -1,10 +1,17 @@
 # pseudo-kod
 
-#include <stdio.h>
-
-int main() {
-  int x,y;
-  scanf("%d %d", &x, &y);
-  printf("%d", x < 0 ? 3 : 2) : (y < 0 ? 3 : 2) : (y < 0 ? 4 : 1));
-  return 0;
+if (x && y > 0) {
+  upp höger;
+  }
+if (x && y < 0) {
+  ner vänster;
+}
+if (x > 0 && y < 0) {
+  upp vänster;
+  }
+if (x < 0 && y > 0) {
+  ner höger;
+}
+if (x && y === 0) {
+  mittpunkt;
 }
